@@ -13,8 +13,7 @@ body {
     border-radius: 100%;
     box-shadow: 10px 10px 151px 53px rgba(0,0,0,0.75);
     overflow: hidden;
-    filter: blur(0);
-    transition: .3s ease-in-out;
+
 }
 
 #profile-pic-section {
@@ -26,7 +25,8 @@ body {
 }
 
 main {
-    background-image: url('../img/bg5.png');
+    background-image: url('../img/bg7.jpg');
+    background-attachment: fixed;
 }
 
 /* about */
@@ -39,43 +39,56 @@ main {
 /* hobbies */
 #hobbies-section {
     height: 20vh;
-    box-shadow: 0px 27px 117px -2px rgba(0,0,0,0.75);
     overflow: hidden;
 }
 
 /* contact */
 #contact-section {
     height: 25vh;
-    box-shadow: 0px 0px 61px -10px rgba(0,0,0,0.75);
-    background-image: url('../img/bg5.png');
+    overflow: hidden;
+}
+
+#contact-article {
+    border-radius: 2em 6em 2em 6em / 4em 2em 4em 2em;
+    box-shadow: 0px 0px 5px 3px rgba(255,255,255,1);
+    background-image: url('../img/bg.jpg');
 }
 
 #animated-person{
-    height: 20vh;
-    transition: .7s ease-in-out;
-    filter: grayscale(100%);
-}
-
-#animated-person:hover{
-    transform: rotate(360deg);
     height: 23vh;
-    filter: grayscale(0);
+    transition: .7s ease-in-out;
+    cursor: pointer;
 }
 
 /* About and hobbies same style */
-.about-and-hobbies-articles {
-    background-attachment: fixed;
-    background-position: center;
+.about-and-hobbies-and-contact-articles {
     border-radius: 2em 6em 2em 6em / 4em 2em 4em 2em;
-    box-shadow: 0px 0px 11px 4px white;
-    overflow: auto !important;
+    box-shadow: 0px 0px 5px 3px rgba(255,255,255,1);
     background-image: url('../img/bg.jpg');
-    position: fixed;
 }
 
-.about-and-hobbies-text {
-    color: black;
+.about-and-hobbies-and-contact-text {
+    color: rgb(66, 64, 64);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size: small;
+}
 
+/* contact-me-icons */
+.contact-icons {
+    width: 3em;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.contact-icons:hover {
+    filter: grayscale(80%);
+}
+
+/* qr code at modal */
+#qr-code {
+    width: 4em;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
 }
