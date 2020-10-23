@@ -24,8 +24,12 @@ body {
     filter: blur(3px);
 }
 
+#profile-pic:focus {
+    filter: blur(3px);
+}
+
 main {
-    background-image: url('../img/bg7.jpg');
+    background-image: url('../img/main.jpg');
     background-attachment: fixed;
 }
 
@@ -63,7 +67,7 @@ main {
 /* About and hobbies same style */
 .about-and-hobbies-and-contact-articles {
     border-radius: 2em 6em 2em 6em / 4em 2em 4em 2em;
-    box-shadow: 0px 0px 5px 3px rgba(255,255,255,1);
+    box-shadow: 0px 0px 8px 6px rgba(9, 8, 37, 0.75);
     background-image: url('../img/bg.jpg');
 }
 
