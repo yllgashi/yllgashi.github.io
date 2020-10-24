@@ -36,7 +36,7 @@ let showWorkingText = () => {
 
     document.getElementById('about-hoobies-text').innerHTML = `
     <p class="about-and-working-text">🔭 I’m currently working on my github projects.</p>
-    <p class="about-and-working-text">🌱 I’m currently learning angular and node.</p>
+    <p class="about-and-working-text">🌱 I’m currently learning Angular and Node.</p>
     <p class="about-and-working-text">📫 I'm open for new opportunities.</p>
     `;
 };
