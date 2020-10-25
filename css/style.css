@@ -1,16 +1,19 @@
 body {
-    background-attachment: fixed;
-    background-image: url('../img/bg.jpg');
-    background-repeat: repeat;
     width: 100vw;
     height: 100vh;
     margin: 0px;
     padding: 0px;
-    overflow-y: auto;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 /* header */
+#profile-pic-section {
+    background-attachment: fixed;
+    background-image: url('../img/main.jpg');
+    background-repeat: repeat;
+    height: 30vh;
+}
+
 #profile-pic {
     cursor: pointer;
     width: 150px;
@@ -18,11 +21,7 @@ body {
     border-radius: 100%;
     box-shadow: 10px 10px 151px 53px rgba(0,0,0,0.75);
     overflow: hidden;
-
-}
-
-#profile-pic-section {
-    height: 30vh;
+    transition: .4s ease-in-out;
 }
 
 #profile-pic:hover {
@@ -33,33 +32,33 @@ body {
     filter: blur(3px);
 }
 
+/* main */
 main {
-    background-image: url('../img/main.jpg');
+    background-image: url('../img/bg.jpg');
     background-attachment: fixed;     
     height: 70vh;
     bottom: 0;
 }
 
-/* about */
-#about-section {
-    height: 20vh;
-    box-shadow: 0px -8px 9px 1px rgba(0,0,0,0.75);
-    overflow: hidden;
-}
-
-/* hobbies */
-#hobbies-section {
-    height: 20vh;
-    overflow: hidden;
-}
-
-/* contact */
-#contact-section {
+/* name section */
+#name-section {
     height: 15vh;
-    overflow: hidden;
 }
 
-/* section */
+/* name article */
+.name-article {
+    border-radius: 2em 6em 2em 6em / 4em 2em 4em 2em;
+    box-shadow: 0px 0px 8px 6px rgba(9, 8, 37, 0.75);
+    background-image: url('../img/bg.jpg');
+    opacity: 0.9;
+}
+
+/* "About me" and "Working on" */
+.about-and-working-text {
+    font-weight: bold;
+}
+
+/* Rocket section */
 #rocket-section {
     height: 15vh;
 }
@@ -70,21 +69,8 @@ main {
     cursor: pointer;
 }
 
-/* About and hobbies same style */
-.about-and-hobbies-and-contact-articles {
-    border-radius: 2em 6em 2em 6em / 4em 2em 4em 2em;
-    box-shadow: 0px 0px 8px 6px rgba(9, 8, 37, 0.75);
-    background-image: url('../img/bg.jpg');
-    opacity: 0.9;
-}
 
-.about-and-hobbies-and-contact-text {
-    color: rgb(66, 64, 64);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    font-size: small;
-}
-
+/* Modal */
 /* contact-me-icons */
 .contact-icons {
     width: 3em;
