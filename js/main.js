@@ -1,6 +1,6 @@
 
 // blur profle pic on scrolling down
-var scrollPosition = 0;
+let scrollPosition = 0;
 
 window.addEventListener('scroll', () => {
     if ((document.body.getBoundingClientRect()).top > scrollPosition)
@@ -22,9 +22,9 @@ let showAboutText = () => {
     changeRocketPosition();
 
     document.getElementById('about-hoobies-text').innerHTML = `
-    <p class="about-and-working-text">⭐ I've been born in Prishtina.</p>
+    <p class="about-and-working-text">⭐ I live in Prishtina.</p>
     <p class="about-and-working-text">🔥 Eager to learn new technologies.</p>
-    <p class="about-and-working-text">🅰️ I find myself mostly working with Angular.</p>
+    <p class="about-and-working-text">🅰️ I find myself mostly working with: C#, Angular and SQL.</p>
     <p class="about-and-working-text">☎️ For my contact info, click on my profile pic!</p>
     `;
 };
@@ -36,7 +36,7 @@ let showWorkingText = () => {
 
     document.getElementById('about-hoobies-text').innerHTML = `
     <p class="about-and-working-text">🔭 I’m currently working on my github projects.</p>
-    <p class="about-and-working-text">🌱 I’m currently learning Angular and Node.</p>
+    <p class="about-and-working-text">🌱 I’ve a strong sense of curiosity about new technologies.</p>
     <p class="about-and-working-text">📫 I'm open for new opportunities.</p>
     `;
 };
