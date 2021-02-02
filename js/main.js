@@ -24,7 +24,7 @@ let showAboutText = () => {
     document.getElementById('about-hoobies-text').innerHTML = `
     <p class="about-and-working-text">⭐ I live in Prishtina.</p>
     <p class="about-and-working-text">🔥 Eager to learn new technologies.</p>
-    <p class="about-and-working-text">🅰️ I find myself mostly working with: C#, Angular and SQL.</p>
+    <p class="about-and-working-text">🅰️ I find myself mostly working with: C#, Angular and Transact-SQL.</p>
     <p class="about-and-working-text">☎️ For my contact info, click on my profile pic!</p>
     `;
 };
