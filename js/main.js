@@ -23,9 +23,9 @@ let showAboutText = () => {
 
     document.getElementById('about-hoobies-text').innerHTML = `
     <p class="about-and-working-text">⭐ I live in Prishtina.</p>
+    <p class="about-and-working-text">🔭 I’m currently working at KEDS.</p>
     <p class="about-and-working-text">🔥 Eager to learn new technologies.</p>
-    <p class="about-and-working-text">🅰️ I find myself mostly working with: C#, Angular and Transact-SQL.</p>
-    <p class="about-and-working-text">☎️ For my contact info, click on my profile pic!</p>
+    <p class="about-and-working-text">🅰️ I find myself mostly working with: Angular, C# and Transact-SQL.</p>
     `;
 };
 
@@ -35,9 +35,12 @@ let showWorkingText = () => {
     changeRocketPosition();
 
     document.getElementById('about-hoobies-text').innerHTML = `
-    <p class="about-and-working-text">🔭 I’m currently working on my github projects.</p>
-    <p class="about-and-working-text">🌱 I’ve a strong sense of curiosity about new technologies.</p>
-    <p class="about-and-working-text">📫 I'm open for new opportunities.</p>
+    <p class="about-and-working-text">🌖 Angular</p>
+    <p class="about-and-working-text">🌘 C#</p>
+    <p class="about-and-working-text">🌘 Node.js</p>
+    <p class="about-and-working-text">🌘 T-SQL</p>
+    <p class="about-and-working-text">📱 Flutter</p>
+    <p class="about-and-working-text">📱 React Native</p>
     `;
 };
 
