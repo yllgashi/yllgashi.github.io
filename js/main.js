@@ -39,8 +39,8 @@ let showWorkingText = () => {
     <p class="about-and-working-text">🌘 C#</p>
     <p class="about-and-working-text">🌘 Node.js</p>
     <p class="about-and-working-text">🌘 T-SQL</p>
-    <p class="about-and-working-text">📱 Flutter</p>
-    <p class="about-and-working-text">📱 React Native</p>
+    <p class="about-and-working-text">📱 Ionic</p>
+    <p class="about-and-working-text">👀 More</p>
     `;
 };
 
